@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'iran-san';
+  src: url("IRANSansWeb.ttf");
+}
+@font-face {
+  font-family: 'iran-san-bold';
+  src: url("IRANSansWeb_Bold.ttf");
+}
+@font-face {
+  font-family: 'Poppins-regular';
+  src: url("Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url("Poppins/Poppins-Bold.ttf");
+}
+html,body,div,button, input, optgroup, select, textarea{
+  font-family: "iran-san", 'Poppins-regular',sans-serif !important;
+}
+html.font-weight-bold,body.font-weight-bold,div.font-weight-bold{
+  font-family: "iran-san-bold", 'Poppins-bold',sans-serif !important;
+}
+
+#app{
+  font-family: "iran-san",'Poppins-regular',sans-serif;
+}
